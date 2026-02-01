@@ -1,0 +1,19 @@
+4. Once the cloning is successful, repository folder should be visible on local system.
+
+5. Create a folder with your name in repo e.g. Rahul
+
+6. Add a file in the same folder.
+
+7. follow steps to push file.
+   ->  git status :  new folder will show in red color
+   ->  git add <folder name>
+   ->  git status
+   ->  git commit -m "Adding new folder repo"
+   ->  git push (Git push will be rejected) 
+
+   ->  git push is rejected, due to git server data is not sync with local system
+       we have to update the local repo with command git pull
+
+   ->  git pull :  It will open an editor, we have to close the editor with :wq
+   ->  again try to push
+   ->  If push is rejected again, then follow same step (pull -> then push)
