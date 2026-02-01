@@ -17,3 +17,10 @@
    ->  git pull :  It will open an editor, we have to close the editor with :wq
    ->  again try to push
    ->  If push is rejected again, then follow same step (pull -> then push)
+
+   ->  git push is rejected, due to git server data is not sync with local system
+       we have to update the local repo with command git pull
+
+   ->  git pull :  It will open an editor, we have to close the editor with :wq
+   ->  again try to push
+   ->  If push is rejected again, then follow same step (pull -> then push)
